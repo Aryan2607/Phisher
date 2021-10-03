@@ -27,7 +27,15 @@
 
 <i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
 
+<<<<<< docker-legacy
+* `apt update`
+* `apt install git curl php openssh-server -y`
+* `git clone git://github.com/htr-tech/zphisher.git`
+* `cd zphisher`
+#### > Run : `bash zphisher.sh`
+======
 <b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
+>>>>>> master
 
 <b>This Tool is made for educational purposes only</b>. Do not attempt to violate the law with anything contained here. <b>If this is your intention, then Get the hell out of here</b>!
 
@@ -51,6 +59,9 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
 ```
+<<<<<< docker-legacy
+apt update ; apt install git curl php openssh-server -y ; git clone git://github.com/htr-tech/zphisher.git ; cd zphisher ; bash zphisher.sh
+=======
 $ git clone git://github.com/htr-tech/zphisher.git
 ```
 
@@ -66,6 +77,7 @@ $ bash zphisher.sh
 ```
 $ docker pull htrtech/zphisher
 $ docker run --rm -it htrtech/zphisher
+>>>>>> master
 ```
 
 ### Dependencies
@@ -76,7 +88,15 @@ $ docker run --rm -it htrtech/zphisher
 - `curl`
 - `git`
 
+<<<<<< docker-legacy
+## Credits :
+#### > TheLinuxChoice (https://github.com/thelinuxchoice)
+#### > DarksecDevelopers (https://github.com/DarksecDevelopers)
+#### > UndeadSec (https://github.com/UndeadSec)
+#### > Equinockx (https://github.com/MoisesTapia)
+======
 > All the dependencies will be installed automatically when you run `Zphisher` for the first time.
+>>>>>> master
 
 > Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
 
