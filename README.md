@@ -1,63 +1,127 @@
-<p align="left">
-<a href="#"><img title="Made in Bangladesh" src="https://img.shields.io/badge/MADE%20IN-BANGLADESH-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
+<!-- Zphisher -->
+
 <p align="center">
-<a href="#"><img title="Zphisher" src="https://raw.githubusercontent.com/htr-tech/release-download/master/images/banner/zphisher.png"></a>
-</p>
-<p align="center">
-<a href="https://github.com/htr-tech"><img title="Author" src="https://img.shields.io/badge/Author-htr--tech-red.svg?style=for-the-badge&logo=github"></a>
-<a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="#"><img title="Version" src="https://img.shields.io/badge/Version-2.0-green.svg?style=flat-square"></a>
-<a href="#"><img title="Language" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103"></a>
-<a href="https://github.com/htr-tech/followers"><img title="Followers" src="https://img.shields.io/github/followers/htr-tech?color=blue&style=flat-square"></a>
-<a href="https://github.com/htr-tech/zphisher/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/htr-tech/zphisher?color=red&style=flat-square"></a>
-<a href="https://github.com/htr-tech/zphisher/network/members"><img title="Forks" src="https://img.shields.io/github/forks/htr-tech/zphisher?color=red&style=flat-square"></a>
-<a href="https://github.com/htr-tech/zphisher/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/htr-tech/zphisher?label=Watchers&color=blue&style=flat-square"></a>
+  <img src=".imgs/logo.png">
 </p>
 
-## Installation :
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-2.2-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/htr-tech/zphisher?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/htr-tech/zphisher?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/htr-tech/zphisher?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/htr-tech/zphisher?color=teal&style=for-the-badge">
+</p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-HTR--Tech-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
+  <img src="https://img.shields.io/badge/MADE%20IN-BANGLADESH-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash-cyan?style=flat-square">
+</p>
+
+<p align="center">A beginners friendly, Automated phishing tool with 30+ templates.</p>
+
+##
+
+<h3><p align="center">Disclaimer</p></h3>
+
+<i>Any actions and or activities related to <b>Zphisher</b> is solely your responsibility. The misuse of this toolkit can result in <b>criminal charges</b> brought against the persons in question. <b>The contributors will not be held responsible</b> in the event any criminal charges be brought against any individuals misusing this toolkit to break the law.
+
+<<<<<< docker-legacy
 * `apt update`
 * `apt install git curl php openssh-server -y`
 * `git clone git://github.com/htr-tech/zphisher.git`
 * `cd zphisher`
 #### > Run : `bash zphisher.sh`
+======
+<b>This toolkit contains materials that can be potentially damaging or dangerous for social media</b>. Refer to the laws in your province/country before accessing, using,or in any other way utilizing this in a wrong way.
+>>>>>> master
 
-## Single Command :
+<b>This Tool is made for educational purposes only</b>. Do not attempt to violate the law with anything contained here. <b>If this is your intention, then Get the hell out of here</b>!
+
+It only demonstrates "how phishing works". <b>You shall not misuse the information to gain unauthorized access to someones social media</b>. However you may try out this at your own risk.</i>
+
+##
+
+### Features
+
+- Latest and updated login pages.
+- Mask URL support 
+- Beginners friendly
+- Docker support (checkout `docker-legacy` branch)
+- Multiple tunneling options
+  - Localhost
+  - Ngrok (With or without hotspot)
+  - Cloudflared (Alternative of Ngrok)
+
+
+### Installation
+
+- Just, Clone this repository -
 ```
+<<<<<< docker-legacy
 apt update ; apt install git curl php openssh-server -y ; git clone git://github.com/htr-tech/zphisher.git ; cd zphisher ; bash zphisher.sh
+=======
+$ git clone git://github.com/htr-tech/zphisher.git
 ```
-<br>
-<p align="center">
-<img width="40%" src="https://raw.githubusercontent.com/htr-tech/release-download/master/images/zphisher1.png"/>
-<img width="51%" src="https://raw.githubusercontent.com/htr-tech/release-download/master/images/zphisher2.png"/>
-</p>
 
-### <<< If you copy , Then Give me The Credits >>>
+- Change to cloned directory and run `zphisher.sh` -
+```
+$ cd zphisher
+$ bash zphisher.sh
+```
 
-## Features :
-#### [+] Latest Login Pages !
-#### [+] New Instagram Auto Follower Page !
-#### [+] 4 Port Forwarding Options !
-#### [+] Easy for Beginners !
+- On first launch, It'll install the dependencies and that's it. `Zphisher` is installed.
 
+### Run on Docker
+```
+$ docker pull htrtech/zphisher
+$ docker run --rm -it htrtech/zphisher
+>>>>>> master
+```
+
+### Dependencies
+
+**`Zphisher`** requires following programs to run properly - 
+- `php`
+- `wget`
+- `curl`
+- `git`
+
+<<<<<< docker-legacy
 ## Credits :
 #### > TheLinuxChoice (https://github.com/thelinuxchoice)
 #### > DarksecDevelopers (https://github.com/DarksecDevelopers)
 #### > UndeadSec (https://github.com/UndeadSec)
 #### > Equinockx (https://github.com/MoisesTapia)
+======
+> All the dependencies will be installed automatically when you run `Zphisher` for the first time.
+>>>>>> master
 
-## Tunelling Options :
-#### > Localhost (127.0.0.1)
-#### > NGROK (https://ngrok.com)
-#### > SERVEO (https://serveo.net)
-#### > LOCALHOSTRUN (https://localhost.run)
+> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali/Parrot`**, **`Arch Linux/Manjaro`**, **`Fedora`**
 
-## Find Me on :
-[![Github](https://img.shields.io/badge/Github-HTR--TECH-green?style=for-the-badge&logo=github)](https://github.com/htr-tech)
-[![Instagram](https://img.shields.io/badge/IG-%40tahmid.rayat-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/tahmid.rayat)
-[![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/tahmid.rayat.official)
+##
 
+<h3 align="center">
+:: Workflow ::
+</h3>
+<p align="center">
+<img src=".imgs/wf.gif"/>
+</p>
+
+### Special Thanks :
+
+- [**Aditya Shakya**](https://github.com/adi1090x)
+- [**1RaY-1**](https://github.com/1RaY-1)
+- [**TheLinuxChoice**](https://twitter.com/linux_choice)
+- [**DarksecDevelopers**](https://github.com/DarksecDevelopers)
+- [**Moises Tapia**](https://github.com/MoisesTapia)
+
+
+### Find Me on :
+<p align="left">
+  <a href="https://github.com/htr-tech" target="_blank"><img src="https://img.shields.io/badge/Github-HTR--TECH-green?style=for-the-badge&logo=github"></a>
+  <a href="https://www.instagram.com/tahmid.rayat" target="_blank"><img src="https://img.shields.io/badge/IG-%40tahmid.rayat-red?style=for-the-badge&logo=instagram"></a>
+  <a href="https://m.me/tahmid.rayat.official" target="_blank"><img src="https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger"></a>
+</p>
 
